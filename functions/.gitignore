@@ -1,0 +1,70 @@
+# -----------------------------------------------------
+# Node / Yarn
+# -----------------------------------------------------
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.log
+
+# Yarn Plug'n'Play
+.pnp/
+.pnp.js
+
+# -----------------------------------------------------
+# Build Output (React)
+# -----------------------------------------------------
+build/
+dist/
+.cache/
+coverage/
+
+# -----------------------------------------------------
+# Firebase
+# -----------------------------------------------------
+.firebase/
+firebase-debug.log
+firestore-debug.log
+ui-debug.log
+*.local
+
+# Emulator Data
+firebase-emulator-suite/
+.emulator-data/
+
+# -----------------------------------------------------
+# Functions
+# -----------------------------------------------------
+functions/node_modules/
+functions/lib/
+functions/.cache/
+
+# TypeScript build in functions (if applicable)
+functions/dist/
+
+# -----------------------------------------------------
+# Environment Files
+# -----------------------------------------------------
+.env
+.env.local
+.env.development
+.env.production
+.env.test
+.env.*.local
+
+# -----------------------------------------------------
+# OS / Editor Junk
+# -----------------------------------------------------
+.DS_Store
+Thumbs.db
+.vscode/
+*.swp
+*.swo
+.idea/
+*.iml
+
+# -----------------------------------------------------
+# Misc
+# -----------------------------------------------------
+*.tgz
+*.tar.gz
