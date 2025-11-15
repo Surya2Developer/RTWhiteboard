@@ -14,3 +14,5 @@ A collaborative, real-time whiteboard app powered by Firebase. Now updated with 
 - Serialized line data is compressed using `lz-string` for 50 - 90% reduction in data stored
 
 Note: Touch input is not synced
+
+https://github.com/user-attachments/assets/7af1f721-a935-4e94-8ecb-c06f06d896e7
